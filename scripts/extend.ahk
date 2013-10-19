@@ -1,4 +1,4 @@
-﻿; window extension functions (shift+winkey + arrow): to the left, to the right, up, down
+﻿; window extension functions (win + shift + num2468)
 
 +#Right::
     WinGetActiveTitle, Title
@@ -18,18 +18,6 @@
     WinMove, %Title%,, oX, oY, oWidth, oHeight
 return
 
-+#Left::
-    WinGetActiveTitle, Title
-    WinGetPos, oX, oY, oWidth, oHeight, %Title%
-    oX -= oWidth
-    oWidth *= 2
-    if (oX < 0)
-    {
-        oWidth += %oX%
-        oX = 0
-    }
-    WinMove, %Title%,, oX, oY, oWidth, oHeight
-return
 
 +#Up::
     WinGetActiveTitle, Title
