@@ -17,6 +17,7 @@ Move to another monitor:	win + shift + left/right
 To do:
 ---------------------
 [x] Extend edge by 50% monitor width, 25% monitor height:  win + num2468 (snap to edges when distance-to-edge <= extension)  
+[ ]     Extension key binding doesn't work with Microsoft Excel
 [ ] Retract edge by 50%:  win + ctrl + num2468 (snap to edges when distance-to-edge <= retraction)  
 [ ] Extend to corner: win + num1379 (snap to corner when distance-to-edge <= extension)  
 [ ] Retract from corner:  win + ctrl + num1379  
