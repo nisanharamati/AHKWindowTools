@@ -16,7 +16,7 @@ Move to another monitor:	win + shift + left/right
 
 To do:
 ---------------------
-[ ] Extend edge by 100%:  win + num2468 (snap to edges when distance-to-edge <= extension)  
+[x] Extend edge by 50% monitor width, 25% monitor height:  win + num2468 (snap to edges when distance-to-edge <= extension)  
 [ ] Retract edge by 50%:  win + ctrl + num2468 (snap to edges when distance-to-edge <= retraction)  
 [ ] Extend to corner: win + num1379 (snap to corner when distance-to-edge <= extension)  
 [ ] Retract from corner:  win + ctrl + num1379  
